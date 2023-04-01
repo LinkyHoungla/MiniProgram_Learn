@@ -8,7 +8,7 @@
     </view> 
     <!-- 其他的tabbar -->
     <view class="tabbar-item flex-column j_c {{selected==index && 'active'}}" wx:else="" data-url="{{item.pagePath}}" data-index="{{index}}" catchtap="switchTab">
-      <image src="{{item.iconPath}}" mode="aspectFill" class="tabbar-item-icon"/>
+      <image src="{{selected == index ? item.selectedIconPath : item.iconPath}}" mode="aspectFill" class="tabbar-item-icon"/>
       <view class="tabbar-item-text">{{item.text}}</view>
     </view> 
   </block>

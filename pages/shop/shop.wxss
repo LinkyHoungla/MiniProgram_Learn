@@ -1,1 +1,8 @@
 /* pages/shop/shop.wxss */
+
+page {
+  /* 设置底部安全距离 */
+  padding-bottom: calc(constant(safe-area-inset-bottom) + 170rpx);
+  padding-bottom: calc(env(safe-area-inset-bottom) + 170rpx);
+  background: rgba(79, 114, 91, 0.3));
+}
