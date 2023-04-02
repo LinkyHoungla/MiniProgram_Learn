@@ -5,7 +5,7 @@
     "pages/my/my",
     "pages/hot/hot",
     "pages/look/look",
-    "custom-tab-bar/index"
+    "pages/test/test"
   ],
   "window": {
     "backgroundTextStyle": "light",
